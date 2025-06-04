@@ -29,10 +29,10 @@ public class RegisEmp {
             empleados.add(empleado);
             idContador++; // Incrementar ID para el próximo empleado
 
-            System.out.print("¿Desea ingresar otro empleado? (s/n): ");
+            System.out.print("¿Desea ingresar otro empleado? (Si/No): ");
             continuar = scanner.nextLine();
 
-        } while (continuar.equalsIgnoreCase("s"));
+        } while (continuar.equalsIgnoreCase("Si"));
 
         System.out.println("\n--- Lista de Empleados Registrados ---");
         for (Empleado emp : empleados) {
