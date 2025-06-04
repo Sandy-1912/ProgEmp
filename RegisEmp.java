@@ -43,7 +43,6 @@ public class RegisEmp {
                     + " | Departamento: " + emp.getDepartamento()
                     + " | Salario: " + emp.getSalario());
         }
-
         scanner.close();
     }
 
